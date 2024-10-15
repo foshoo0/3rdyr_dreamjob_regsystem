@@ -1,0 +1,13 @@
+-- Create Software Developers Table
+CREATE TABLE softdevs (
+    sd_ID INT AUTO_INCREMENT PRIMARY KEY,
+    fname VARCHAR(50),
+    lname VARCHAR(50),
+    position VARCHAR(50),
+    fav_proglanguage VARCHAR(50),
+    age INT,
+    technicalknowledge_rate INT,
+    collaborationskill_rate INT,
+    codequality_rate INT,
+    DateAdded TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
